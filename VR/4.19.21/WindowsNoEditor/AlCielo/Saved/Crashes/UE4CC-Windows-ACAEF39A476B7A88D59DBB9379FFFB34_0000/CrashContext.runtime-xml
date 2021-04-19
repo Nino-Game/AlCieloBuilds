@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>4986EBD74559AE17193D17AD87BA446F</ExecutionGuid>
+		<CrashGUID>UE4CC-Windows-ACAEF39A476B7A88D59DBB9379FFFB34_0000</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: FMath::IsFinite(TexelFactor) [File:Runtime\Engine\Classes\Engine/TextureStreamingTypes.h] [Line: 96] Stack: 0x00007ff7a7619b66 UE4Game.exe!UnknownFunction [] 0x00007ff7a57810bf UE4Game.exe!UnknownFunction [] 0x00007ff7a6104e24 UE4Game.exe!UnknownFunction [] 0x00007ff7a60b990e UE4Game.exe!UnknownFunction [] 0x00007ff7a60ba0a4 UE4Game.exe!UnknownFunction [] 0x00007ff7a60ba5a6 UE4Game.exe!UnknownFunction [] 0x00007ff7a60d50b9 UE4Game.exe!UnknownFunction [] 0x00007ff7a587e146 UE4Game.exe!UnknownFunction [] 0x00007ff7a5879d9b UE4Game.exe!UnknownFunction [] 0x00007ff7a5978541 UE4Game.exe!UnknownFunction [] 0x00007ff7a1b436d0 UE4Game.exe!UnknownFunction [] 0x00007ff7a1b55d3c UE4Game.exe!UnknownFunction [] 0x00007ff7a1b55dfa UE4Game.exe!UnknownFunction [] 0x00007ff7a1b67090 UE4Game.exe!UnknownFunction [] 0x00007ff7a7206482 UE4Game.exe!UnknownFunction [] 0x00007ff9444b7034 KERNEL32.DLL!UnknownFunction [] 0x00007ff9461c2651 ntdll.dll!UnknownFunction []</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>13792</ProcessId>
+		<SecondsSinceStart>15</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE4-AlCielo</GameName>
+		<ExecutableName>UE4Game</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.25-CL-14469661-Win64-Development</Symbols>
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.25.4-14469661+++UE4+Release-4.25</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.25-CL-14469661</BuildVersion>
+		<IsUE4Release>false</IsUE4Release>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Users/Oliver/Documents/GitHub/AlCieloVR/4.19.21/WindowsNoEditor/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Users/Oliver/Documents/GitHub/AlCieloVR/4.19.21/WindowsNoEditor/</RootDir>
+		<MachineId>50FC709F4C7B7243B04809BF49235172</MachineId>
+		<LoginId>50fc709f4c7b7243b04809bf49235172</LoginId>
+		<EpicAccountId>877198c775bc4da1a0a81a897352ccda</EpicAccountId>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName>GameState</GameStateName>
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics 630</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>68569432064</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>64</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>59755327488</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140730157961216</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>405688320</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>451338240</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1431314432</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1555378176</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>5</NumMinidumpFramesToIgnore>
+		<CallStack>UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+UE4Game
+kernel32
+ntdll</CallStack>
+		<PCallStack>ntdll 0x0000000046170000 + 9cdf4 KERNELBASE 0x0000000043dd0000 + 76449 UE4Game 0x00000000a1480000 + 1752f98 UE4Game 0x00000000a1480000 + 173233b UE4Game 0x00000000a1480000 + 173364a UE4Game 0x00000000a1480000 + 5d9c7b0 VCRUNTIME140 0x000000002cff0000 + e3e0 ntdll 0x0000000046170000 + a1f6f ntdll 0x0000000046170000 + 51454 ntdll 0x0000000046170000 + 511a5 KERNELBASE 0x0000000043dd0000 + 2d759 UE4Game 0x00000000a1480000 + 173357a UE4Game 0x00000000a1480000 + 17334fa UE4Game 0x00000000a1480000 + 148c54d UE4Game 0x00000000a1480000 + 149e30a UE4Game 0x00000000a1480000 + 6199b66 UE4Game 0x00000000a1480000 + 43010bf UE4Game 0x00000000a1480000 + 4c84e24 UE4Game 0x00000000a1480000 + 4c3990e UE4Game 0x00000000a1480000 + 4c3a0a4 UE4Game 0x00000000a1480000 + 4c3a5a6 UE4Game 0x00000000a1480000 + 4c550b9 UE4Game 0x00000000a1480000 + 43fe146 UE4Game 0x00000000a1480000 + 43f9d9b UE4Game 0x00000000a1480000 + 44f8541 UE4Game 0x00000000a1480000 + 6c36d0 UE4Game 0x00000000a1480000 + 6d5d3c</PCallStack>
+		<PCallStackHash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cdf4 KERNELBASE 0x0000000043dd0000 + 76449 UE4Game 0x00000000a1480000 + 1752f98 UE4Game 0x00000000a1480000 + 173233b UE4Game 0x00000000a1480000 + 173364a UE4Game 0x00000000a1480000 + 5d9c7b0 VCRUNTIME140 0x000000002cff0000 + e3e0 ntdll 0x0000000046170000 + a1f6f ntdll 0x0000000046170000 + 51454 ntdll 0x0000000046170000 + 511a5 KERNELBASE 0x0000000043dd0000 + 2d759 UE4Game 0x00000000a1480000 + 173357a UE4Game 0x00000000a1480000 + 17334fa UE4Game 0x00000000a1480000 + 148c54d UE4Game 0x00000000a1480000 + 149e30a UE4Game 0x00000000a1480000 + 6199b66 UE4Game 0x00000000a1480000 + 43010bf UE4Game 0x00000000a1480000 + 4c84e24 UE4Game 0x00000000a1480000 + 4c3990e UE4Game 0x00000000a1480000 + 4c3a0a4 UE4Game 0x00000000a1480000 + 4c3a5a6 UE4Game 0x00000000a1480000 + 4c550b9 UE4Game 0x00000000a1480000 + 43fe146 UE4Game 0x00000000a1480000 + 43f9d9b UE4Game 0x00000000a1480000 + 44f8541 UE4Game 0x00000000a1480000 + 6c36d0 UE4Game 0x00000000a1480000 + 6d5d3c UE4Game 0x00000000a1480000 + 6d5dfa UE4Game 0x00000000a1480000 + 6e7090 UE4Game 0x00000000a1480000 + 5d86482 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>7420</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + a0664 ntdll 0x0000000046170000 + 52dc7 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6984</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + a0664 ntdll 0x0000000046170000 + 52dc7 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16460</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + a0664 ntdll 0x0000000046170000 + 52dc7 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16828</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d294 KERNELBASE 0x0000000043dd0000 + 4d84e UE4Game 0x00000000a1480000 + 12949eb UE4Game 0x00000000a1480000 + 1287cc6 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4972</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1734aea KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21116</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18972</ThreadID>
+				<ThreadName>TaskGraphThreadNP 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11204</ThreadID>
+				<ThreadName>TaskGraphThreadNP 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6564</ThreadID>
+				<ThreadName>TaskGraphThreadNP 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15172</ThreadID>
+				<ThreadName>TaskGraphThreadNP 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21400</ThreadID>
+				<ThreadName>TaskGraphThreadNP 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6884</ThreadID>
+				<ThreadName>TaskGraphThreadNP 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21364</ThreadID>
+				<ThreadName>TaskGraphThreadNP 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8664</ThreadID>
+				<ThreadName>TaskGraphThreadNP 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5136</ThreadID>
+				<ThreadName>TaskGraphThreadNP 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9936</ThreadID>
+				<ThreadName>TaskGraphThreadNP 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19120</ThreadID>
+				<ThreadName>TaskGraphThreadNP 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4776</ThreadID>
+				<ThreadName>TaskGraphThreadNP 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4992</ThreadID>
+				<ThreadName>TaskGraphThreadNP 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4164</ThreadID>
+				<ThreadName>TaskGraphThreadNP 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18160</ThreadID>
+				<ThreadName>TaskGraphThreadHP 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10060</ThreadID>
+				<ThreadName>TaskGraphThreadHP 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15952</ThreadID>
+				<ThreadName>TaskGraphThreadHP 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19560</ThreadID>
+				<ThreadName>TaskGraphThreadHP 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20812</ThreadID>
+				<ThreadName>TaskGraphThreadHP 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6408</ThreadID>
+				<ThreadName>TaskGraphThreadHP 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17112</ThreadID>
+				<ThreadName>TaskGraphThreadHP 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14876</ThreadID>
+				<ThreadName>TaskGraphThreadHP 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17172</ThreadID>
+				<ThreadName>TaskGraphThreadHP 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21828</ThreadID>
+				<ThreadName>TaskGraphThreadHP 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21992</ThreadID>
+				<ThreadName>TaskGraphThreadHP 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16216</ThreadID>
+				<ThreadName>TaskGraphThreadHP 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4020</ThreadID>
+				<ThreadName>TaskGraphThreadHP 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14372</ThreadID>
+				<ThreadName>TaskGraphThreadHP 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19000</ThreadID>
+				<ThreadName>TaskGraphThreadBP 28</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1072</ThreadID>
+				<ThreadName>TaskGraphThreadBP 29</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21480</ThreadID>
+				<ThreadName>TaskGraphThreadBP 30</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15880</ThreadID>
+				<ThreadName>TaskGraphThreadBP 31</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19404</ThreadID>
+				<ThreadName>TaskGraphThreadBP 32</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14780</ThreadID>
+				<ThreadName>TaskGraphThreadBP 33</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18364</ThreadID>
+				<ThreadName>TaskGraphThreadBP 34</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17216</ThreadID>
+				<ThreadName>TaskGraphThreadBP 35</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12080</ThreadID>
+				<ThreadName>TaskGraphThreadBP 36</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3256</ThreadID>
+				<ThreadName>TaskGraphThreadBP 37</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14984</ThreadID>
+				<ThreadName>TaskGraphThreadBP 38</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8692</ThreadID>
+				<ThreadName>TaskGraphThreadBP 39</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10732</ThreadID>
+				<ThreadName>TaskGraphThreadBP 40</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d52af UE4Game 0x00000000a1480000 + 12d651d UE4Game 0x00000000a1480000 + 12dd11b UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12292</ThreadID>
+				<ThreadName>TaskGraphThreadBP 41</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d5e71 UE4Game 0x00000000a1480000 + 12d64a3 UE4Game 0x00000000a1480000 + 15b332d UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18248</ThreadID>
+				<ThreadName>StatsThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18504</ThreadID>
+				<ThreadName>PoolThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>860</ThreadID>
+				<ThreadName>PoolThread 1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20096</ThreadID>
+				<ThreadName>PoolThread 2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17664</ThreadID>
+				<ThreadName>PoolThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11340</ThreadID>
+				<ThreadName>PoolThread 4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1900</ThreadID>
+				<ThreadName>PoolThread 5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19312</ThreadID>
+				<ThreadName>PoolThread 6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18728</ThreadID>
+				<ThreadName>PoolThread 7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17616</ThreadID>
+				<ThreadName>PoolThread 8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7636</ThreadID>
+				<ThreadName>PoolThread 9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16324</ThreadID>
+				<ThreadName>PoolThread 10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10808</ThreadID>
+				<ThreadName>PoolThread 11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15788</ThreadID>
+				<ThreadName>PoolThread 12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2132</ThreadID>
+				<ThreadName>PoolThread 13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18328</ThreadID>
+				<ThreadName>PoolThread 14</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7192</ThreadID>
+				<ThreadName>PoolThread 15</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d294 KERNELBASE 0x0000000043dd0000 + 4d84e UE4Game 0x00000000a1480000 + 14fbf15 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20100</ThreadID>
+				<ThreadName>FAsyncWriter_AlCielo</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 3f1b1ac UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18304</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + a0664 ntdll 0x0000000046170000 + 52dc7 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1332</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d294 KERNELBASE 0x0000000043dd0000 + 4d84e UE4Game 0x00000000a1480000 + 1b01c8e UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13420</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 1054436 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18760</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4216</ThreadID>
+				<ThreadName>PoolThread 16</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>804</ThreadID>
+				<ThreadName>PoolThread 17</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1632</ThreadID>
+				<ThreadName>PoolThread 18</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3620</ThreadID>
+				<ThreadName>PoolThread 19</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d764 KERNELBASE 0x0000000043dd0000 + 50d40 CRYPT32 0x00000000439b0000 + 4bdd7 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1648</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1824</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17052</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19256</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12712</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20476</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15020</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12632</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9048</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + ba79b2 nvwgf2umx 0x00000000f4aa0000 + ba688a nvwgf2umx 0x00000000f4aa0000 + b9b52d nvwgf2umx 0x00000000f4aa0000 + 5714ea nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13384</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13044</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d764 KERNELBASE 0x0000000043dd0000 + 50d40 combase 0x0000000045630000 + cbcf6 combase 0x0000000045630000 + cbb70 combase 0x0000000045630000 + cb980 combase 0x0000000045630000 + cb909 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1612</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + a0664 ntdll 0x0000000046170000 + 52dc7 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6184</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + a0664 ntdll 0x0000000046170000 + 52dc7 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21060</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17084</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 3ad7f7 nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18484</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d764 KERNELBASE 0x0000000043dd0000 + 50d40 KERNELBASE 0x0000000043dd0000 + 50c3e nvwgf2umx 0x00000000f4aa0000 + 30a057 nvwgf2umx 0x00000000f4aa0000 + 5714ea nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10980</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 204f53a UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18148</ThreadID>
+				<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 5546a22 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12880</ThreadID>
+				<ThreadName>FFileTransferRunnable</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12168</ThreadID>
+				<ThreadName>PoolThread 20</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>388</ThreadID>
+				<ThreadName>PoolThread 21</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15508</ThreadID>
+				<ThreadName>PoolThread 22</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4260</ThreadID>
+				<ThreadName>PoolThread 23</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1288</ThreadID>
+				<ThreadName>PoolThread 24</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17044</ThreadID>
+				<ThreadName>PoolThread 25</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3588</ThreadID>
+				<ThreadName>PoolThread 26</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 13cf364 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12488</ThreadID>
+				<ThreadName>PoolThread 27</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d294 KERNELBASE 0x0000000043dd0000 + 4d84e UE4Game 0x00000000a1480000 + 1754eee UE4Game 0x00000000a1480000 + 4d6ff61 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21292</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d764 KERNELBASE 0x0000000043dd0000 + 50d40 combase 0x0000000045630000 + cbcf6 combase 0x0000000045630000 + cba4d combase 0x0000000045630000 + cb909 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17956</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d764 KERNELBASE 0x0000000043dd0000 + 50d40 KERNELBASE 0x0000000043dd0000 + 50c3e AUDIOSES 0x000000003c5b0000 + f030 AUDIOSES 0x000000003c5b0000 + efde KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9316</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d764 KERNELBASE 0x0000000043dd0000 + 50d40 xaudio2_9 0x00000000d8050000 + 163d3 xaudio2_9 0x00000000d8050000 + 170a1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5184</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10776</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15112</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21788</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8648</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13620</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16808</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16884</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7596</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11404</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14784</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20880</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21540</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3816</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21732</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9252</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12596</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11552</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18080</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20852</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10680</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6112</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12972</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7608</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18516</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19152</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1196</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21904</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10384</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14604</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21420</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e xaudio2_9 0x00000000d8050000 + 1654e xaudio2_9 0x00000000d8050000 + 170e1 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21636</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 3a6e930 UE4Game 0x00000000a1480000 + 3a6e72e UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2944</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e UE4Game 0x00000000a1480000 + 1757956 UE4Game 0x00000000a1480000 + 12d5e71 UE4Game 0x00000000a1480000 + 12d64a3 UE4Game 0x00000000a1480000 + 41dbbd2 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12412</ThreadID>
+				<ThreadName>AudioThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13108</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>19900</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20216</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5164</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12916</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18308</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10460</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17760</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>nvwgf2umx 0x00000000f4aa0000 + 115b3ce nvwgf2umx 0x00000000f4aa0000 + 415c50 nvwgf2umx 0x00000000f4aa0000 + 21db18 nvwgf2umx 0x00000000f4aa0000 + 7a76b nvwgf2umx 0x00000000f4aa0000 + ba2515 d3d11 0x000000003f910000 + e3e1 d3d11 0x000000003f910000 + ddfb d3d11 0x000000003f910000 + dd37 d3d11 0x000000003f910000 + 38519 d3d11 0x000000003f910000 + 28fdd d3d11 0x000000003f910000 + 2978c d3d11 0x000000003f910000 + e056 UE4Game 0x00000000a1480000 + 23165b4 UE4Game 0x00000000a1480000 + 2301ed0 UE4Game 0x00000000a1480000 + 35b1976 UE4Game 0x00000000a1480000 + 35bb8e7 UE4Game 0x00000000a1480000 + 35b1313 UE4Game 0x00000000a1480000 + 35b1c81 UE4Game 0x00000000a1480000 + be4b0d UE4Game 0x00000000a1480000 + 2b747ee UE4Game 0x00000000a1480000 + 3548ebc UE4Game 0x00000000a1480000 + 354a6f1 UE4Game 0x00000000a1480000 + 35489d2 UE4Game 0x00000000a1480000 + 2b7cd2a UE4Game 0x00000000a1480000 + 24f9ec8 UE4Game 0x00000000a1480000 + 2a60b54 UE4Game 0x00000000a1480000 + 2a4d184 UE4Game 0x00000000a1480000 + 2a4f761 UE4Game 0x00000000a1480000 + 12d60ea UE4Game 0x00000000a1480000 + 12d64a3 UE4Game 0x00000000a1480000 + 3563d14 UE4Game 0x00000000a1480000 + 3566549 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6348</ThreadID>
+				<ThreadName>RenderThread 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9d294 KERNELBASE 0x0000000043dd0000 + 4d84e UE4Game 0x00000000a1480000 + 1754eee UE4Game 0x00000000a1480000 + 3566697 UE4Game 0x00000000a1480000 + 1753cdf UE4Game 0x00000000a1480000 + 174ae00 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3684</ThreadID>
+				<ThreadName>RTHeartBeat 3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6244</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16896</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6560</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14008</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18420</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3600</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7504</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x0000000046170000 + 9cc94 KERNELBASE 0x0000000043dd0000 + 1a34e nvwgf2umx 0x00000000f4aa0000 + 58f8ad nvwgf2umx 0x00000000f4aa0000 + 1170ea4 KERNEL32 0x00000000444a0000 + 17034 ntdll 0x0000000046170000 + 52651</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2664</ThreadID>
+				<ThreadName>Unknown</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>637544698180200000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10 (Release 2009)  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\Win64\UE4Game.exe
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_ClothingPROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEX_LegacyPROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\APEXFrameworkPROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3PROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3CommonPROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\NvClothPROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\OpenVR\OpenVRv1_5_17\Win64\openvr_api.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PhysX3CookingPROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxPvdSDKPROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\PhysX3\Win64\VS2015\PxFoundationPROFILE_x64.dll
+C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+	<EngineData>
+		<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 2080 with Max-Q Design</RHI.AdapterName>
+		<RHI.UserDriverVersion>465.89</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>27.21.14.6589</RHI.InternalDriverVersion>
+		<RHI.DriverDate>3-25-2021</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
