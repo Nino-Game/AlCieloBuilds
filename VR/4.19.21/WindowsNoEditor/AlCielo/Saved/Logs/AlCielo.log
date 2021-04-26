@@ -1,4 +1,4 @@
-﻿Log file open, 04/19/21 15:59:09
+﻿Log file open, 04/19/21 22:39:06
 LogInit: Display: Running engine for game: AlCielo
 LogInit: Display: Project file not found: ../../../AlCielo/AlCielo.uproject
 LogInit: Display: 	Attempting to find via project info helper.
@@ -7,7 +7,7 @@ LogPakFile: Display: Found Pak file ../../../AlCielo/Content/Paks/AlCielo-Window
 LogPakFile: Display: Mounting pak file ../../../AlCielo/Content/Paks/AlCielo-WindowsNoEditor.pak.
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.060444
+LogStats: Stats thread started at 0.241790
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -112,7 +112,7 @@ LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
 LogInit: Command Line: 
-LogInit: Base Directory: C:/Users/Oliver/Documents/GitHub/AlCieloVR/4.19.21/WindowsNoEditor/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Users/Oliver/Documents/GitHub/AlCieloBuilds/VR/4.19.21/WindowsNoEditor/Engine/Binaries/Win64/
 LogInit: Allocator: binned2
 LogInit: Installed Engine Build: 0
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -163,797 +163,801 @@ LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
 LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
-[2021.04.19-22.59.10:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.04.19-22.59.10:053][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.04.19-22.59.10:054][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.04.19-22.59.10:054][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.04.19-22.59.10:054][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.04.19-22.59.10:054][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.04.19-22.59.10:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
-[2021.04.19-22.59.10:056][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:056][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.19-22.59.10:056][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.19-22.59.10:056][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:056][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2021.04.19-22.59.10:056][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.19-22.59.10:057][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.04.19-22.59.10:058][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2021.04.19-22.59.10:058][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
-[2021.04.19-22.59.10:058][  0]LogHAL: Display: Platform has ~ 64 GB [68569432064 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.04.19-22.59.10:058][  0]LogInit: Going up to parent DeviceProfile [Windows]
-[2021.04.19-22.59.10:058][  0]LogInit: Going up to parent DeviceProfile []
-[2021.04.19-22.59.10:058][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.19-22.59.10:058][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.19-22.59.10:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.04.19-22.59.10:060][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
-[2021.04.19-22.59.10:060][  0]LogInit: Computer: DESKTOP-G6DIG6F
-[2021.04.19-22.59.10:060][  0]LogInit: User: Oliver
-[2021.04.19-22.59.10:060][  0]LogInit: CPU Page size=4096, Cores=8
-[2021.04.19-22.59.10:060][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.04.19-22.59.10:060][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
-[2021.04.19-22.59.10:060][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
-[2021.04.19-22.59.10:060][  0]LogMemory: Process Physical Memory: 67.33 MB used, 67.33 MB peak
-[2021.04.19-22.59.10:060][  0]LogMemory: Process Virtual Memory: 74.97 MB used, 74.97 MB peak
-[2021.04.19-22.59.10:060][  0]LogMemory: Physical Memory: 9078.25 MB used,  56314.66 MB free, 65392.91 MB total
-[2021.04.19-22.59.10:060][  0]LogMemory: Virtual Memory: 4949.56 MB used,  134212776.00 MB free, 134217728.00 MB total
-[2021.04.19-22.59.10:063][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.04.19-22.59.10:093][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.04.19-22.59.10:093][  0]LogInit: Using OS detected language (en-US).
-[2021.04.19-22.59.10:093][  0]LogInit: Using OS detected locale (en-US).
-[2021.04.19-22.59.10:094][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.04.19-22.59.10:129][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.04.19-22.59.10:129][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.04.19-22.59.13:329][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.04.19-22.59.13:329][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.04.19-22.59.13:329][  0]LogD3D11RHI: D3D11 adapters:
-[2021.04.19-22.59.13:479][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (Feature Level 11_0)
-[2021.04.19-22.59.13:479][  0]LogD3D11RHI:       8010/0/32696 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.04.19-22.59.13:513][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2021.04.19-22.59.13:513][  0]LogD3D11RHI:       128/0/32696 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.04.19-22.59.13:515][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.04.19-22.59.13:515][  0]LogD3D11RHI:       0/0/32696 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.04.19-22.59.13:515][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.04.19-22.59.13:522][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.04.19-22.59.13:522][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
-[2021.04.19-22.59.13:522][  0]LogWindows: EnumDisplayDevices:
-[2021.04.19-22.59.13:522][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2021.04.19-22.59.13:523][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.04.19-22.59.13:523][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.04.19-22.59.13:523][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
-[2021.04.19-22.59.13:523][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
-[2021.04.19-22.59.13:524][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
-[2021.04.19-22.59.13:524][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
-[2021.04.19-22.59.13:524][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2021.04.19-22.59.13:524][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 with Max-Q Design
-[2021.04.19-22.59.13:524][  0]LogD3D11RHI:   Driver Version: 465.89 (internal:27.21.14.6589, unified:465.89)
-[2021.04.19-22.59.13:524][  0]LogD3D11RHI:      Driver Date: 3-25-2021
-[2021.04.19-22.59.13:524][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
-[2021.04.19-22.59.13:624][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.04.19-22.59.13:624][  0]LogD3D11RHI: Async texture creation enabled
-[2021.04.19-22.59.13:624][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.04.19-22.59.13:649][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.04.19-22.59.13:650][  0]LogShaderLibrary: Display: Using ../../../AlCielo/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 2058 unique shaders.
-[2021.04.19-22.59.13:650][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
-[2021.04.19-22.59.13:651][  0]LogTemp: Warning: Clearing the OS Cache
-[2021.04.19-22.59.13:655][  0]LogPakFile: New pak file ../../../AlCielo/Content/Paks/AlCielo-WindowsNoEditor.pak added to pak precacher.
-[2021.04.19-22.59.13:676][  0]LogSlate: Using FreeType 2.10.0
-[2021.04.19-22.59.13:676][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.04.19-22.59.13:740][  0]LogShaderLibrary: Display: Using ../../../AlCielo/Content/ShaderArchive-AlCielo-PCD3D_SM5.ushaderbytecode for material shader code. Total 1620 unique shaders.
-[2021.04.19-22.59.13:740][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library AlCielo
-[2021.04.19-22.59.13:740][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
-[2021.04.19-22.59.13:740][  0]LogRHI: Display: Failed to open default shader pipeline cache for AlCielo using shader platform 0.
-[2021.04.19-22.59.13:740][  0]LogRHI: Display: Failed to open default shader pipeline cache for AlCielo using shader platform 0.
-[2021.04.19-22.59.13:740][  0]LogInit: Using OS detected language (en-US).
-[2021.04.19-22.59.13:740][  0]LogInit: Using OS detected locale (en-US).
-[2021.04.19-22.59.13:740][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2021.04.19-22.59.13:740][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2021.04.19-22.59.13:740][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2021.04.19-22.59.13:740][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2021.04.19-22.59.13:741][  0]LogTextLocalizationManager: Compacting localization data took   0.69ms
-[2021.04.19-22.59.13:750][  0]LogAssetRegistry: FAssetRegistry took 0.0081 seconds to start up
-[2021.04.19-22.59.13:844][  0]LogStreaming: Display: Flushing async loaders.
-[2021.04.19-22.59.13:845][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.000090 seconds
-[2021.04.19-22.59.13:849][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2021.04.19-22.59.13:865][  0]LogNetVersion: AlCielo 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4045464020)
-[2021.04.19-22.59.13:898][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.19-22.59.13:898][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.19-22.59.13:921][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FE5398E280), frame # 0
-[2021.04.19-22.59.13:921][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FE53219340), frame # 0
-[2021.04.19-22.59.13:922][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FE4E181C00), frame # 0
-[2021.04.19-22.59.13:927][  0]LogMoviePlayer: Initializing movie player
-[2021.04.19-22.59.13:931][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.04.19-22.59.13:931][  0]LogOcInput: OculusInput pre-init called
-[2021.04.19-22.59.13:935][  0]LogUObjectArray: 14209 objects as part of root set at end of initial load.
-[2021.04.19-22.59.13:935][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
-[2021.04.19-22.59.13:935][  0]LogUObjectAllocator: 2870488 out of 0 bytes used by permanent object pool.
-[2021.04.19-22.59.13:935][  0]LogUObjectArray: CloseDisregardForGC: 14209/14209 objects in disregard for GC pool
-[2021.04.19-22.59.13:937][  0]LogEngine: Initializing Engine...
-[2021.04.19-22.59.13:938][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-53AFD6B5
-[2021.04.19-22.59.13:939][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.04.19-22.59.14:003][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.04.19-22.59.14:004][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.19-22.59.14:004][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.19-22.59.14:004][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.19-22.59.14:004][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.19-22.59.14:004][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.19-22.59.14:004][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.19-22.59.14:004][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.19-22.59.14:004][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.19-22.59.14:004][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.19-22.59.14:004][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.19-22.59.14:009][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.04.19-22.59.14:023][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.19-22.59.14:023][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.04.19-22.59.14:076][  0]LogAudioMixer: Display: Using Audio Device VIVE Cosmos (NVIDIA High Definition Audio)
-[2021.04.19-22.59.14:076][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.19-22.59.14:077][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.19-22.59.14:077][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.19-22.59.14:078][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.19-22.59.14:078][  0]LogInit: FAudioDevice initialized.
-[2021.04.19-22.59.14:079][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.04.19-22.59.14:079][  0]LogInit: Texture streaming: Enabled
-[2021.04.19-22.59.14:081][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.19-22.59.14:082][  0]LogInit: Display: Game Engine Initialized.
-[2021.04.19-22.59.14:082][  0]LogInit: Display: Starting Game.
-[2021.04.19-22.59.14:082][  0]LogNet: Browse: /Game/_Maps/StartMapVR?Name=Player
-[2021.04.19-22.59.14:083][  0]LogLoad: LoadMap: /Game/_Maps/StartMapVR?Name=Player
-[2021.04.19-22.59.14:083][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
-[2021.04.19-22.59.14:083][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.04.19-22.59.14:084][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.19-22.59.14:086][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
-[2021.04.19-22.59.14:168][  0]LogEnum: Warning: Enum name collision: 'GripEnum::NewEnumerator0' is in both '/Game/VirtualRealityBP/StartMap_Blueprints/GripEnum.GripEnum' and '/Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum'
-[2021.04.19-22.59.14:168][  0]LogEnum: Warning: Enum name collision: 'GripEnum::NewEnumerator1' is in both '/Game/VirtualRealityBP/StartMap_Blueprints/GripEnum.GripEnum' and '/Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum'
-[2021.04.19-22.59.14:168][  0]LogEnum: Warning: Enum name collision: 'GripEnum::NewEnumerator2' is in both '/Game/VirtualRealityBP/StartMap_Blueprints/GripEnum.GripEnum' and '/Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum'
-[2021.04.19-22.59.14:224][  0]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'BoxCollider' in BlueprintGeneratedClass 'Trigger_Music_C' (it may have been removed)
-[2021.04.19-22.59.14:224][  0]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'CapsuleCollider' in BlueprintGeneratedClass 'Trigger_Music_C' (it may have been removed)
-[2021.04.19-22.59.14:241][  0]LogAIModule: Creating AISystem for world StartMapVR
-[2021.04.19-22.59.14:241][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FE4F46D000), frame # 0
-[2021.04.19-22.59.14:241][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FE5D714FC0), frame # 0
-[2021.04.19-22.59.14:241][  0]LogLoad: Game class is 'StartMapVRGameMode_C'
-[2021.04.19-22.59.14:246][  0]LogWorld: Bringing World /Game/_Maps/StartMapVR.StartMapVR up for play (max tick rate 0) at 2021.04.19-15.59.14
-[2021.04.19-22.59.14:246][  0]LogWorld: Bringing up level for play took: 0.004089
-[2021.04.19-22.59.14:248][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2021.04.19-22.59.14:248][  0]LogSpawn: Warning: SpawnActor failed because no class was specified
-[2021.04.19-22.59.14:250][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
-[2021.04.19-22.59.14:250][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
-[2021.04.19-22.59.14:250][  0]LogSlate: Slate User Unregistered.  User Index 8
-[2021.04.19-22.59.14:250][  0]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
-[2021.04.19-22.59.14:250][  0]LogSlate: Slate User Unregistered.  User Index 8
-[2021.04.19-22.59.14:251][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
-[2021.04.19-22.59.14:252][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
-[2021.04.19-22.59.14:252][  0]LogUMG: Display: Widget Class VR_StartMain_C - Loaded Fast Template.
-[2021.04.19-22.59.14:252][  0]LogUMG: Display: Widget Class VR_Credits_C - Loaded Fast Template.
-[2021.04.19-22.59.14:253][  0]LogUMG: Display: Widget Class VR_Options_C - Loaded Fast Template.
-[2021.04.19-22.59.14:253][  0]LogUMG: Display: Widget Class HeadsUpDisplay_C - Loaded Fast Template.
-[2021.04.19-22.59.14:255][  0]LogLoad: Took 0.172711 seconds to LoadMap(/Game/_Maps/StartMapVR)
-[2021.04.19-22.59.14:257][  0]LogSlate: Took 0.001439 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
-[2021.04.19-22.59.14:310][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
-[2021.04.19-22.59.14:311][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
-[2021.04.19-22.59.14:311][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
-[2021.04.19-22.59.14:311][  0]LogLoad: (Engine Initialization) Total time: 4.55 seconds
-[2021.04.19-22.59.14:315][  0]LogRenderer: Reallocating scene render targets to support 1536x864 Format 26 NumSamples 1 (Frame:1).
-[2021.04.19-22.59.14:347][  0]LogSteamVRInputDevice: Display: SteamVR runtime 1.5.17 loaded.
-[2021.04.19-22.59.14:347][  0]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../AlCielo/Config/SteamVRBindings/steamvr_manifest.json
-[2021.04.19-22.59.14:347][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../AlCielo/Config/SteamVRBindings
-[2021.04.19-22.59.14:356][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../AlCielo/Config/SteamVRBindings
-[2021.04.19-22.59.14:359][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: C:\Users\Oliver\Documents\GitHub\AlCieloVR\4.19.21\WindowsNoEditor\AlCielo\Config\SteamVRBindings\steamvr_manifest.json
-[2021.04.19-22.59.14:361][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
-[2021.04.19-22.59.14:361][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
-[2021.04.19-22.59.14:361][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:362][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
-[2021.04.19-22.59.14:363][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
-[2021.04.19-22.59.14:364][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Interact
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Interact
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Interact
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Interact
-[2021.04.19-22.59.14:365][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Pause
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Pause
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Pause
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Flashlight
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/InspectLeft
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/InspectLeft
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/InspectRight
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/InspectRight
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ClickLeft
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ClickRight
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
-[2021.04.19-22.59.14:366][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
-[2021.04.19-22.59.14:367][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2021.04.19-22.59.14:394][  0]LogRenderer: Warning: Resizing VR buffer to 3272 by 1932
-[2021.04.19-22.59.14:394][  0]LogRenderer: Reallocating scene render targets to support 3272x1932 Format 26 NumSamples 1 (Frame:2).
-[2021.04.19-22.59.14:394][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.04.19-22.59.14:396][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.19-22.59.14:497][  0]LogSlate: Slate font cache was flushed
-[2021.04.19-22.59.14:506][  1]LogSlate: Took 0.001109 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
-[2021.04.19-23.01.08:815][794]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../AlCielo/Content/_UI/Fonts/Alcielobasic-Regular.ufont' (28K)
-[2021.04.19-23.01.14:102][ 59]LogCore: Display: AppLifetime: Application will enter background
-[2021.04.19-23.01.25:424][650]LogCore: Display: AppLifetime: Application has entered foreground
-[2021.04.19-23.01.26:458][705]LogCore: Display: AppLifetime: Application will enter background
-[2021.04.19-23.01.27:234][740]LogCore: Display: AppLifetime: Application has entered foreground
-[2021.04.19-23.01.30:567][890]LogNet: Browse: /Game/_Maps/Rancho
-[2021.04.19-23.01.30:568][890]LogLoad: LoadMap: /Game/_Maps/Rancho
-[2021.04.19-23.01.30:568][890]LogWorld: BeginTearingDown for /Game/_Maps/StartMapVR
-[2021.04.19-23.01.30:568][890]LogWorld: UWorld::CleanupWorld for StartMapVR, bSessionEnded=true, bCleanupResources=true
-[2021.04.19-23.01.30:570][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.19-23.01.30:617][890]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FE4F46D000), frame # 6890
-[2021.04.19-23.01.30:617][890]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FE5D714FC0), frame # 6890
-[2021.04.19-23.01.30:617][890]LogSlate: Slate User Unregistered.  User Index 8
-[2021.04.19-23.01.30:617][890]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
-[2021.04.19-23.01.30:618][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
-[2021.04.19-23.01.30:622][890]LogStreaming: Display: Flushing async loaders.
-[2021.04.19-23.01.30:802][890]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'BoxCollider' in BlueprintGeneratedClass 'Trigger_Music_C' (it may have been removed)
-[2021.04.19-23.01.30:802][890]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'CapsuleCollider' in BlueprintGeneratedClass 'Trigger_Music_C' (it may have been removed)
-[2021.04.19-23.01.30:809][890]LogAIModule: Creating AISystem for world Rancho
-[2021.04.19-23.01.30:809][890]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FE4F464000), frame # 6890
-[2021.04.19-23.01.30:809][890]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FE4E717B80), frame # 6890
-[2021.04.19-23.01.30:810][890]LogLoad: Game class is 'GameMode'
-[2021.04.19-23.01.30:816][890]LogWorld: Bringing World /Game/_Maps/Rancho.Rancho up for play (max tick rate 0) at 2021.04.19-16.01.30
-[2021.04.19-23.01.30:817][890]LogWorld: Bringing up level for play took: 0.006019
-[2021.04.19-23.01.30:818][890]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2021.04.19-23.01.30:819][890]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2021.04.19-23.01.30:819][890]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2021.04.19-23.01.30:819][890]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2021.04.19-23.01.30:821][890]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
-[2021.04.19-23.01.30:821][890]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
-[2021.04.19-23.01.30:824][890]LogUMG: Display: Widget Class HeadsUpDisplay_C - Loaded Fast Template.
-[2021.04.19-23.01.30:827][890]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2021.04.19-23.01.30:828][890]LogLoad: Took 0.260286 seconds to LoadMap(/Game/_Maps/Rancho)
-[2021.04.19-23.01.30:834][890]LogOutputDevice: Warning: 
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.04.20-05.39.07:077][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.20-05.39.07:077][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.04.20-05.39.07:080][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:080][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.20-05.39.07:081][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.20-05.39.07:082][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2021.04.20-05.39.07:082][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2021.04.20-05.39.07:082][  0]LogHAL: Display: Platform has ~ 64 GB [68569432064 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.20-05.39.07:082][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2021.04.20-05.39.07:082][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.20-05.39.07:082][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.04.20-05.39.07:082][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.20-05.39.07:083][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../AlCielo/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.04.20-05.39.07:086][  0]LogInit: Computer: DESKTOP-G6DIG6F
+[2021.04.20-05.39.07:086][  0]LogInit: User: Oliver
+[2021.04.20-05.39.07:086][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.04.20-05.39.07:086][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.20-05.39.07:086][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2021.04.20-05.39.07:086][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2021.04.20-05.39.07:086][  0]LogMemory: Process Physical Memory: 67.57 MB used, 67.58 MB peak
+[2021.04.20-05.39.07:086][  0]LogMemory: Process Virtual Memory: 75.05 MB used, 75.05 MB peak
+[2021.04.20-05.39.07:086][  0]LogMemory: Physical Memory: 6363.56 MB used,  59029.34 MB free, 65392.91 MB total
+[2021.04.20-05.39.07:086][  0]LogMemory: Virtual Memory: 4950.09 MB used,  134212776.00 MB free, 134217728.00 MB total
+[2021.04.20-05.39.07:090][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.20-05.39.07:341][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.20-05.39.07:341][  0]LogInit: Using OS detected language (en-US).
+[2021.04.20-05.39.07:341][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.20-05.39.07:342][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.20-05.39.07:381][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.20-05.39.07:381][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.20-05.39.07:575][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.20-05.39.07:575][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.20-05.39.07:575][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.20-05.39.07:669][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (Feature Level 11_0)
+[2021.04.20-05.39.07:670][  0]LogD3D11RHI:       8010/0/32696 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.04.20-05.39.07:694][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.04.20-05.39.07:694][  0]LogD3D11RHI:       128/0/32696 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.04.20-05.39.07:697][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.20-05.39.07:697][  0]LogD3D11RHI:       0/0/32696 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.20-05.39.07:697][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.20-05.39.07:704][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.20-05.39.07:704][  0]LogD3D11RHI:     GPU DeviceId: 0x1e90 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.20-05.39.07:704][  0]LogWindows: EnumDisplayDevices:
+[2021.04.20-05.39.07:704][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.04.20-05.39.07:704][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.04.20-05.39.07:705][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.04.20-05.39.07:705][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2021.04.20-05.39.07:705][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2021.04.20-05.39.07:705][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2021.04.20-05.39.07:705][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 with Max-Q Design' (P:0 D:0)
+[2021.04.20-05.39.07:705][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.04.20-05.39.07:705][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 with Max-Q Design
+[2021.04.20-05.39.07:705][  0]LogD3D11RHI:   Driver Version: 465.89 (internal:27.21.14.6589, unified:465.89)
+[2021.04.20-05.39.07:705][  0]LogD3D11RHI:      Driver Date: 3-25-2021
+[2021.04.20-05.39.07:705][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2021.04.20-05.39.07:787][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.20-05.39.07:787][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.20-05.39.07:787][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.20-05.39.07:836][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.20-05.39.07:838][  0]LogShaderLibrary: Display: Using ../../../AlCielo/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 2058 unique shaders.
+[2021.04.20-05.39.07:838][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2021.04.20-05.39.07:839][  0]LogTemp: Warning: Clearing the OS Cache
+[2021.04.20-05.39.07:850][  0]LogPakFile: New pak file ../../../AlCielo/Content/Paks/AlCielo-WindowsNoEditor.pak added to pak precacher.
+[2021.04.20-05.39.07:877][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.20-05.39.07:879][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.20-05.39.07:951][  0]LogShaderLibrary: Display: Using ../../../AlCielo/Content/ShaderArchive-AlCielo-PCD3D_SM5.ushaderbytecode for material shader code. Total 1620 unique shaders.
+[2021.04.20-05.39.07:951][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library AlCielo
+[2021.04.20-05.39.07:952][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2021.04.20-05.39.07:952][  0]LogRHI: Display: Failed to open default shader pipeline cache for AlCielo using shader platform 0.
+[2021.04.20-05.39.07:952][  0]LogRHI: Display: Failed to open default shader pipeline cache for AlCielo using shader platform 0.
+[2021.04.20-05.39.07:952][  0]LogInit: Using OS detected language (en-US).
+[2021.04.20-05.39.07:952][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.20-05.39.07:952][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2021.04.20-05.39.07:952][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2021.04.20-05.39.07:952][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.04.20-05.39.07:952][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.04.20-05.39.07:953][  0]LogTextLocalizationManager: Compacting localization data took   0.83ms
+[2021.04.20-05.39.07:964][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2021.04.20-05.39.08:053][  0]LogStreaming: Display: Flushing async loaders.
+[2021.04.20-05.39.08:055][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.000394 seconds
+[2021.04.20-05.39.08:067][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2021.04.20-05.39.08:086][  0]LogNetVersion: AlCielo 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4045464020)
+[2021.04.20-05.39.08:136][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.20-05.39.08:136][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.20-05.39.08:167][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000025A8FCAE240), frame # 0
+[2021.04.20-05.39.08:167][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025A8F589340), frame # 0
+[2021.04.20-05.39.08:170][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025A8F49E000), frame # 0
+[2021.04.20-05.39.08:209][  0]LogMoviePlayer: Initializing movie player
+[2021.04.20-05.39.08:219][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.20-05.39.08:219][  0]LogOcInput: OculusInput pre-init called
+[2021.04.20-05.39.08:222][  0]LogUObjectArray: 14209 objects as part of root set at end of initial load.
+[2021.04.20-05.39.08:222][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2021.04.20-05.39.08:222][  0]LogUObjectAllocator: 2870488 out of 0 bytes used by permanent object pool.
+[2021.04.20-05.39.08:222][  0]LogUObjectArray: CloseDisregardForGC: 14209/14209 objects in disregard for GC pool
+[2021.04.20-05.39.08:225][  0]LogEngine: Initializing Engine...
+[2021.04.20-05.39.08:227][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-53AFD6B5
+[2021.04.20-05.39.08:228][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.20-05.39.08:290][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.20-05.39.08:292][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.20-05.39.08:292][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.20-05.39.08:292][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.20-05.39.08:292][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.20-05.39.08:292][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.20-05.39.08:292][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.20-05.39.08:292][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.20-05.39.08:292][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.20-05.39.08:293][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.20-05.39.08:293][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.20-05.39.08:347][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.20-05.39.08:360][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.20-05.39.08:360][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.20-05.39.08:375][  0]LogAudioMixer: Display: Using Audio Device VIVE Cosmos (NVIDIA High Definition Audio)
+[2021.04.20-05.39.08:376][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.20-05.39.08:377][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.20-05.39.08:377][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.20-05.39.08:378][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.20-05.39.08:378][  0]LogInit: FAudioDevice initialized.
+[2021.04.20-05.39.08:379][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.20-05.39.08:379][  0]LogInit: Texture streaming: Enabled
+[2021.04.20-05.39.08:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-05.39.08:402][  0]LogInit: Display: Game Engine Initialized.
+[2021.04.20-05.39.08:403][  0]LogInit: Display: Starting Game.
+[2021.04.20-05.39.08:403][  0]LogNet: Browse: /Game/_Maps/StartMapVR?Name=Player
+[2021.04.20-05.39.08:403][  0]LogLoad: LoadMap: /Game/_Maps/StartMapVR?Name=Player
+[2021.04.20-05.39.08:403][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.04.20-05.39.08:406][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-05.39.08:407][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-05.39.08:412][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.04.20-05.39.08:467][  0]LogEnum: Warning: Enum name collision: 'GripEnum::NewEnumerator0' is in both '/Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum' and '/Game/VirtualRealityBP/StartMap_Blueprints/GripEnum.GripEnum'
+[2021.04.20-05.39.08:467][  0]LogEnum: Warning: Enum name collision: 'GripEnum::NewEnumerator1' is in both '/Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum' and '/Game/VirtualRealityBP/StartMap_Blueprints/GripEnum.GripEnum'
+[2021.04.20-05.39.08:468][  0]LogEnum: Warning: Enum name collision: 'GripEnum::NewEnumerator2' is in both '/Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum' and '/Game/VirtualRealityBP/StartMap_Blueprints/GripEnum.GripEnum'
+[2021.04.20-05.39.08:527][  0]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'BoxCollider' in BlueprintGeneratedClass 'Trigger_Music_C' (it may have been removed)
+[2021.04.20-05.39.08:527][  0]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'CapsuleCollider' in BlueprintGeneratedClass 'Trigger_Music_C' (it may have been removed)
+[2021.04.20-05.39.08:543][  0]LogAIModule: Creating AISystem for world StartMapVR
+[2021.04.20-05.39.08:543][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025A8BDE3E00), frame # 0
+[2021.04.20-05.39.08:543][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025A92894FC0), frame # 0
+[2021.04.20-05.39.08:544][  0]LogLoad: Game class is 'StartMapVRGameMode_C'
+[2021.04.20-05.39.08:550][  0]LogWorld: Bringing World /Game/_Maps/StartMapVR.StartMapVR up for play (max tick rate 0) at 2021.04.19-22.39.08
+[2021.04.20-05.39.08:550][  0]LogWorld: Bringing up level for play took: 0.005982
+[2021.04.20-05.39.08:553][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.04.20-05.39.08:554][  0]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.20-05.39.08:561][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.39.08:561][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.39.08:562][  0]LogSlate: Slate User Unregistered.  User Index 8
+[2021.04.20-05.39.08:562][  0]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.39.08:562][  0]LogSlate: Slate User Unregistered.  User Index 8
+[2021.04.20-05.39.08:563][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.39.08:563][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.39.08:564][  0]LogUMG: Display: Widget Class VR_StartMain_C - Loaded Fast Template.
+[2021.04.20-05.39.08:565][  0]LogUMG: Display: Widget Class VR_Credits_C - Loaded Fast Template.
+[2021.04.20-05.39.08:565][  0]LogUMG: Display: Widget Class VR_Options_C - Loaded Fast Template.
+[2021.04.20-05.39.08:566][  0]LogUMG: Display: Widget Class HeadsUpDisplay_C - Loaded Fast Template.
+[2021.04.20-05.39.08:570][  0]LogLoad: Took 0.166514 seconds to LoadMap(/Game/_Maps/StartMapVR)
+[2021.04.20-05.39.08:572][  0]LogSlate: Took 0.001235 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2021.04.20-05.39.08:604][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2021.04.20-05.39.08:604][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2021.04.20-05.39.08:604][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2021.04.20-05.39.08:604][  0]LogLoad: (Engine Initialization) Total time: 2.11 seconds
+[2021.04.20-05.39.08:611][  0]LogRenderer: Reallocating scene render targets to support 1536x864 Format 26 NumSamples 1 (Frame:1).
+[2021.04.20-05.39.08:649][  0]LogSteamVRInputDevice: Display: SteamVR runtime 1.5.17 loaded.
+[2021.04.20-05.39.08:650][  0]LogSteamVRInputDevice: Display: Action Manifest Path: ../../../AlCielo/Config/SteamVRBindings/steamvr_manifest.json
+[2021.04.20-05.39.08:650][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: ../../../AlCielo/Config/SteamVRBindings
+[2021.04.20-05.39.08:656][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: ../../../AlCielo/Config/SteamVRBindings
+[2021.04.20-05.39.08:711][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: C:\Users\Oliver\Documents\GitHub\AlCieloBuilds\VR\4.19.21\WindowsNoEditor\AlCielo\Config\SteamVRBindings\steamvr_manifest.json
+[2021.04.20-05.39.08:716][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2021.04.20-05.39.08:716][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2021.04.20-05.39.08:716][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2021.04.20-05.39.08:716][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:716][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2021.04.20-05.39.08:716][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:717][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/GrabRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportLeft
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/TeleportRight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Interact
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Interact
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Interact
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Interact
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Pause
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Pause
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Pause
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Flashlight
+[2021.04.20-05.39.08:718][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/InspectLeft
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/InspectLeft
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/InspectRight
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/InspectRight
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ClickLeft
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ClickRight
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d
+[2021.04.20-05.39.08:719][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2021.04.20-05.39.08:740][  0]LogRenderer: Warning: Resizing VR buffer to 3272 by 1932
+[2021.04.20-05.39.08:740][  0]LogRenderer: Reallocating scene render targets to support 3272x1932 Format 26 NumSamples 1 (Frame:2).
+[2021.04.20-05.39.08:740][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.20-05.39.08:755][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-05.39.08:841][  0]LogSlate: Slate font cache was flushed
+[2021.04.20-05.39.08:852][  1]LogSlate: Took 0.000732 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2021.04.20-05.40.13:759][110]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../AlCielo/Content/_UI/Fonts/Alcielobasic-Regular.ufont' (28K)
+[2021.04.20-05.41.10:879][794]LogNet: Browse: /Game/_Maps/Rancho
+[2021.04.20-05.41.10:879][794]LogLoad: LoadMap: /Game/_Maps/Rancho
+[2021.04.20-05.41.10:879][794]LogWorld: BeginTearingDown for /Game/_Maps/StartMapVR
+[2021.04.20-05.41.10:880][794]LogWorld: UWorld::CleanupWorld for StartMapVR, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-05.41.10:881][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-05.41.10:932][794]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025A8BDE3E00), frame # 7794
+[2021.04.20-05.41.10:932][794]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025A92894FC0), frame # 7794
+[2021.04.20-05.41.10:932][794]LogSlate: Slate User Unregistered.  User Index 8
+[2021.04.20-05.41.10:932][794]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.41.10:933][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.04.20-05.41.10:936][794]LogStreaming: Display: Flushing async loaders.
+[2021.04.20-05.41.11:074][794]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'BoxCollider' in BlueprintGeneratedClass 'Trigger_Music_C' (it may have been removed)
+[2021.04.20-05.41.11:074][794]LogBlueprint: Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find native parent component 'Sprite' for 'CapsuleCollider' in BlueprintGeneratedClass 'Trigger_Music_C' (it may have been removed)
+[2021.04.20-05.41.11:080][794]LogAIModule: Creating AISystem for world Rancho
+[2021.04.20-05.41.11:080][794]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025A8BDE1200), frame # 7794
+[2021.04.20-05.41.11:080][794]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025A9289F740), frame # 7794
+[2021.04.20-05.41.11:080][794]LogLoad: Game class is 'GameMode'
+[2021.04.20-05.41.11:086][794]LogWorld: Bringing World /Game/_Maps/Rancho.Rancho up for play (max tick rate 0) at 2021.04.19-22.41.11
+[2021.04.20-05.41.11:086][794]LogWorld: Bringing up level for play took: 0.005616
+[2021.04.20-05.41.11:087][794]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.04.20-05.41.11:087][794]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.04.20-05.41.11:087][794]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.04.20-05.41.11:087][794]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.04.20-05.41.11:089][794]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.41.11:089][794]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.41.11:091][794]LogUMG: Display: Widget Class HeadsUpDisplay_C - Loaded Fast Template.
+[2021.04.20-05.41.11:093][794]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.04.20-05.41.11:094][794]LogLoad: Took 0.214845 seconds to LoadMap(/Game/_Maps/Rancho)
+[2021.04.20-05.41.11:102][794]LogOutputDevice: Warning: 
 
 Script Stack (0 frames):
 
-[2021.04.19-23.01.30:839][890]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.005 s
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: === Handled ensure: ===
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: 
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: Ensure condition failed: FMath::IsFinite(TexelFactor) [File:Runtime\Engine\Classes\Engine/TextureStreamingTypes.h] [Line: 96]
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: 
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: Stack: 
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a7619b66 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a57810bf UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a6104e24 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a60b990e UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a60ba0a4 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a60ba5a6 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a60d50b9 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a587e146 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:839][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a5879d9b UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a5978541 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a1b436d0 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a1b55d3c UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a1b55dfa UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a1b67090 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: [Callstack] 0x00007ff7a7206482 UE4Game.exe!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: [Callstack] 0x00007ff9444b7034 KERNEL32.DLL!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: [Callstack] 0x00007ff9461c2651 ntdll.dll!UnknownFunction []
-[2021.04.19-23.01.30:840][890]LogOutputDevice: Error: 
-[2021.04.19-23.01.30:845][890]LogStats:                SubmitErrorReport -  0.000 s
-[2021.04.19-23.01.31:272][890]LogStats:                    SendNewReport -  0.426 s
-[2021.04.19-23.01.31:272][890]LogStats:             FDebug::EnsureFailed -  0.437 s
-[2021.04.19-23.01.31:272][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.19-23.01.31:278][891]LogSlate: Took 0.001436 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
-[2021.04.19-23.01.31:830][904]LogPakFile: Precache HighWater 16MB
+[2021.04.20-05.41.11:113][794]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.011 s
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: === Handled ensure: ===
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: 
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: Ensure condition failed: FMath::IsFinite(TexelFactor) [File:Runtime\Engine\Classes\Engine/TextureStreamingTypes.h] [Line: 96]
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: 
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: Stack: 
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff666fb9b66 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff6651210bf UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff665aa4e24 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff665a5990e UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff665a5a0a4 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff665a5a5a6 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff665a750b9 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff66521e146 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff665219d9b UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff665318541 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff6614e36d0 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff6614f5d3c UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff6614f5dfa UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff661507090 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ff666ba6482 UE4Game.exe!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ffa1b0e7034 KERNEL32.DLL!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: [Callstack] 0x00007ffa1d062651 ntdll.dll!UnknownFunction []
+[2021.04.20-05.41.11:113][794]LogOutputDevice: Error: 
+[2021.04.20-05.41.11:115][794]LogStats:                SubmitErrorReport -  0.000 s
+[2021.04.20-05.41.11:517][794]LogStats:                    SendNewReport -  0.402 s
+[2021.04.20-05.41.11:518][794]LogStats:             FDebug::EnsureFailed -  0.415 s
+[2021.04.20-05.41.11:518][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-05.41.11:522][795]LogSlate: Took 0.000976 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2021.04.20-05.41.11:994][808]LogPakFile: Precache HighWater 16MB
 
-[2021.04.19-23.01.38:459][ 30]LogUMG: Display: Widget Class VR_Message_Widget_C - Loaded Fast Template.
-[2021.04.19-23.02.17:770][742]LogTaskGraph: Warning: Task graph took  48.05ms for RT to recieve broadcast.
-[2021.04.19-23.02.17:770][742]LogTaskGraph: Warning: Task graph took  48.28ms for RT to recieve broadcast and do processing.
-[2021.04.19-23.02.17:770][742]LogTaskGraph: Warning: Task graph took  48.16ms to wait for named thread broadcast.
-[2021.04.19-23.02.17:770][742]LogTaskGraph: Warning: Task graph took  48.38ms to broadcast.
-[2021.04.19-23.03.06:713][ 93]LogSlate: Took 0.001086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.04.19-23.03.06:777][ 95]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
-[2021.04.19-23.03.08:221][142]Closing by request
-[2021.04.19-23.03.08:221][142]LogWindows: FPlatformMisc::RequestExit(0)
-[2021.04.19-23.03.08:221][142]LogCore: Engine exit requested (reason: Win RequestExit)
-[2021.04.19-23.03.08:243][143]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2021.04.19-23.03.08:244][143]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
-[2021.04.19-23.03.08:256][143]LogInit: Display: PreExit Game.
-[2021.04.19-23.03.08:270][143]LogWorld: BeginTearingDown for /Game/_Maps/Rancho
-[2021.04.19-23.03.08:271][143]LogWorld: UWorld::CleanupWorld for Rancho, bSessionEnded=true, bCleanupResources=true
-[2021.04.19-23.03.08:273][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.19-23.03.08:327][143]LogHMD: SteamVR Shutting down.
-[2021.04.19-23.03.08:329][143]LogSlate: Request Window 'AlCielo (64-bit Development PCD3D_SM5) ' being destroyed
-[2021.04.19-23.03.08:333][143]LogSlate: Window 'AlCielo (64-bit Development PCD3D_SM5) ' being destroyed
-[2021.04.19-23.03.08:334][143]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2021.04.19-23.03.08:364][143]LogExit: Preparing to exit.
-[2021.04.19-23.03.08:364][143]LogMoviePlayer: Shutting down movie player
-[2021.04.19-23.03.08:373][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.19-23.03.08:376][143]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2021.04.19-23.03.08:380][143]LogExit: Game engine shut down
-[2021.04.19-23.03.08:384][143]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001FE5398E280), frame # 9143
-[2021.04.19-23.03.08:384][143]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FE53219340), frame # 9143
-[2021.04.19-23.03.08:384][143]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FE4E181C00), frame # 9143
-[2021.04.19-23.03.08:401][143]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FE4E717B80), frame # 9143
-[2021.04.19-23.03.08:401][143]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FE4F464000), frame # 9143
-[2021.04.19-23.03.08:421][143]LogExit: Object subsystem successfully closed.
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module AutomationController (316)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module AutomationWorker (314)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module Voice (312)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module AIModule (310)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module NavigationSystem (307)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (304)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module WebMMedia (302)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module OculusMR (300)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (298)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (296)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (294)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (292)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module CharacterAI (290)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module PlanarCut (288)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module SessionServices (286)
-[2021.04.19-23.03.08:434][143]LogModuleManager: Shutting down and abandoning module LiveCoding (284)
-[2021.04.19-23.03.08:435][143]LogModuleManager: Shutting down and abandoning module LevelSequence (282)
-[2021.04.19-23.03.08:435][143]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (280)
-[2021.04.19-23.03.08:435][143]LogModuleManager: Shutting down and abandoning module MovieScene (278)
-[2021.04.19-23.03.08:435][143]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (276)
-[2021.04.19-23.03.08:435][143]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (274)
-[2021.04.19-23.03.08:435][143]LogModuleManager: Shutting down and abandoning module AudioMixerCore (273)
-[2021.04.19-23.03.08:435][143]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (270)
-[2021.04.19-23.03.08:436][143]LogModuleManager: Shutting down and abandoning module ProfilerService (268)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module TaskGraph (266)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module Synthesis (264)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module OculusInput (262)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (260)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module GooglePAD (258)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (256)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module CableComponent (254)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module AudioCapture (252)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (251)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module AssetTags (248)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (246)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module AppleImageUtils (244)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module AndroidPermission (242)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module TemplateSequence (240)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MediaCompositing (238)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module ImgMedia (236)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (234)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (232)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (230)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (228)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (226)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module ChaosNiagara (224)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (222)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (220)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module EditableMesh (218)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (216)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MeshConversion (214)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module DynamicMesh (212)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (210)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module GeometricObjects (208)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module ChaosCloth (206)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module BackChannel (204)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module AutomationUtils (202)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (200)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module GeometryCache (198)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module UObjectPlugin (196)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module SoundFields (194)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (192)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (188)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module ActorSequence (186)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module UdpMessaging (184)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module TcpMessaging (182)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (180)
-[2021.04.19-23.03.08:444][143]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (178)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (176)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (174)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (172)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (170)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (168)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (166)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapController (164)
-[2021.04.19-23.03.08:445][143]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2021.04.19-23.03.08:445][143]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (162)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapAR (160)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module AugmentedReality (159)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (156)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (154)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Niagara (152)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module SignalProcessing (151)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module NiagaraCore (148)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module FacialAnimation (146)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module SignificanceManager (144)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module AnimationSharing (142)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (140)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Paper2D (138)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (136)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (134)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (132)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module PacketHandler (130)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (128)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MediaAssets (126)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Overlay (124)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module FunctionalTesting (122)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MessageLog (120)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module UMG (118)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module SlateReflector (116)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Slate (114)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module SlateCore (112)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module MRMesh (110)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Messaging (108)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (106)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module XAudio2 (104)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Networking (102)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Core (100)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module ImageWrapper (96)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module InputCore (94)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Settings (92)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module PhysXCooking (90)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module ChaosSolvers (88)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (87)
-[2021.04.19-23.03.08:445][143]LogModuleManager: Shutting down and abandoning module Chaos (84)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module AVEncoder (80)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (76)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module SteamVRInput (74)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module SteamVR (72)
-[2021.04.19-23.03.08:446][143]LogHMD: Freeing OpenVRDLLHandle.
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (62)
-[2021.04.19-23.03.08:446][143]LogModuleManager: Shutting down and abandoning module HTTP (57)
-[2021.04.19-23.03.08:456][143]LogModuleManager: Shutting down and abandoning module SSL (56)
-[2021.04.19-23.03.08:456][143]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module Media (51)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (46)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module NiagaraShader (44)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module VariantManagerContent (42)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2021.04.19-23.03.08:457][143]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2021.04.19-23.03.08:458][143]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2021.04.19-23.03.08:458][143]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2021.04.19-23.03.08:458][143]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2021.04.19-23.03.08:458][143]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2021.04.19-23.03.08:458][143]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2021.04.19-23.03.08:458][143]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2021.04.19-23.03.08:458][143]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2021.04.19-23.03.08:458][143]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2021.04.19-23.03.08:459][143]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2021.04.19-23.03.08:460][143]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2021.04.19-23.03.08:461][143]LogD3D11RHI: Shutdown
-[2021.04.19-23.03.08:461][143]LogD3D11RHI: CleanupD3DDevice
-[2021.04.19-23.03.08:470][143]LogExit: Exiting.
-[2021.04.19-23.03.08:475][143]Log file closed, 04/19/21 16:03:08
+[2021.04.20-05.41.18:581][986]LogUMG: Display: Widget Class VR_Message_Widget_C - Loaded Fast Template.
+[2021.04.20-05.41.41:658][563]LogUMG: Display: Widget Class VR_Pause_Menu_C - Loaded Fast Template.
+[2021.04.20-05.41.41:723][565]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../AlCielo/Content/_UI/Fonts/Alcielobasic-Regular.ufont' (28K)
+[2021.04.20-05.41.54:312][942]LogUMG: Display: Widget Class VR_Options_Menu_C - Loaded Fast Template.
+[2021.04.20-05.42.12:040][439]LogTaskGraph: Warning: Task graph took  35.80ms for RT to recieve broadcast.
+[2021.04.20-05.42.12:040][439]LogTaskGraph: Warning: Task graph took  36.08ms for RT to recieve broadcast and do processing.
+[2021.04.20-05.42.12:040][439]LogTaskGraph: Warning: Task graph took  35.99ms to wait for named thread broadcast.
+[2021.04.20-05.42.12:040][439]LogTaskGraph: Warning: Task graph took  36.19ms to broadcast.
+[2021.04.20-05.43.13:181][ 58]LogTaskGraph: Warning: Task graph took  37.02ms for RT to recieve broadcast.
+[2021.04.20-05.43.13:181][ 58]LogTaskGraph: Warning: Task graph took  37.21ms for RT to recieve broadcast and do processing.
+[2021.04.20-05.43.13:181][ 58]LogTaskGraph: Warning: Task graph took  37.14ms to wait for named thread broadcast.
+[2021.04.20-05.43.13:181][ 58]LogTaskGraph: Warning: Task graph took  37.32ms to broadcast.
+[2021.04.20-05.47.24:613][382]LogCore: Display: AppLifetime: Application will enter background
+[2021.04.20-05.47.35:743][828]LogSlate: Took 0.001602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.20-05.47.35:785][830]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2021.04.20-05.47.37:179][885]Closing by request
+[2021.04.20-05.47.37:179][885]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.04.20-05.47.37:179][885]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.04.20-05.47.37:196][886]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.04.20-05.47.37:197][886]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2021.04.20-05.47.37:239][886]LogInit: Display: PreExit Game.
+[2021.04.20-05.47.37:247][886]LogWorld: BeginTearingDown for /Game/_Maps/Rancho
+[2021.04.20-05.47.37:248][886]LogWorld: UWorld::CleanupWorld for Rancho, bSessionEnded=true, bCleanupResources=true
+[2021.04.20-05.47.37:250][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.20-05.47.37:744][886]LogHMD: SteamVR Shutting down.
+[2021.04.20-05.47.37:745][886]LogSlate: Request Window 'AlCielo (64-bit Development PCD3D_SM5) ' being destroyed
+[2021.04.20-05.47.37:750][886]LogSlate: Window 'AlCielo (64-bit Development PCD3D_SM5) ' being destroyed
+[2021.04.20-05.47.37:751][886]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.20-05.47.37:777][886]LogExit: Preparing to exit.
+[2021.04.20-05.47.37:778][886]LogMoviePlayer: Shutting down movie player
+[2021.04.20-05.47.37:784][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.20-05.47.37:792][886]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.04.20-05.47.37:794][886]LogExit: Game engine shut down
+[2021.04.20-05.47.37:805][886]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000025A8FCAE240), frame # 20886
+[2021.04.20-05.47.37:806][886]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025A8F589340), frame # 20886
+[2021.04.20-05.47.37:806][886]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025A8F49E000), frame # 20886
+[2021.04.20-05.47.37:821][886]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025A9289F740), frame # 20886
+[2021.04.20-05.47.37:821][886]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025A8BDE1200), frame # 20886
+[2021.04.20-05.47.37:848][886]LogExit: Object subsystem successfully closed.
+[2021.04.20-05.47.37:865][886]LogModuleManager: Shutting down and abandoning module AutomationController (316)
+[2021.04.20-05.47.37:865][886]LogModuleManager: Shutting down and abandoning module AutomationWorker (314)
+[2021.04.20-05.47.37:865][886]LogModuleManager: Shutting down and abandoning module Voice (312)
+[2021.04.20-05.47.37:865][886]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2021.04.20-05.47.37:865][886]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module NavigationSystem (307)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (304)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module WebMMedia (302)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module OculusMR (300)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (298)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (296)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (294)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (292)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module CharacterAI (290)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module PlanarCut (288)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module SessionServices (286)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module LiveCoding (284)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module LevelSequence (282)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (280)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module MovieScene (278)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (276)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (274)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module AudioMixerCore (273)
+[2021.04.20-05.47.37:866][886]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (270)
+[2021.04.20-05.47.37:868][886]LogModuleManager: Shutting down and abandoning module ProfilerService (268)
+[2021.04.20-05.47.37:979][886]LogModuleManager: Shutting down and abandoning module TaskGraph (266)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module Synthesis (264)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module OculusInput (262)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (260)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module GooglePAD (258)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (256)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module CableComponent (254)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module AudioCapture (252)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (251)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module AssetTags (248)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (246)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module AppleImageUtils (244)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module AndroidPermission (242)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module TemplateSequence (240)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MediaCompositing (238)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module ImgMedia (236)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (234)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (232)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (230)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (228)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (226)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module ChaosNiagara (224)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (222)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (220)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module EditableMesh (218)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (216)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MeshConversion (214)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module DynamicMesh (212)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (210)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module GeometricObjects (208)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module ChaosCloth (206)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module BackChannel (204)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module AutomationUtils (202)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (200)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module GeometryCache (198)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module UObjectPlugin (196)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module SoundFields (194)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (192)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (188)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module ActorSequence (186)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module UdpMessaging (184)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module TcpMessaging (182)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (180)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (178)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (176)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (174)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (172)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (170)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (168)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (166)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapController (164)
+[2021.04.20-05.47.37:980][886]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.04.20-05.47.37:980][886]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (162)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapAR (160)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module AugmentedReality (159)
+[2021.04.20-05.47.37:980][886]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (156)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (154)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module SignalProcessing (151)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module NiagaraCore (148)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module FacialAnimation (146)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module SignificanceManager (144)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module AnimationSharing (142)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (140)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module Paper2D (138)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (136)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (134)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (132)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module PacketHandler (130)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (128)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module MediaAssets (126)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module Overlay (124)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module FunctionalTesting (122)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module MessageLog (120)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module UMG (118)
+[2021.04.20-05.47.37:981][886]LogModuleManager: Shutting down and abandoning module SlateReflector (116)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module Slate (114)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module SlateCore (112)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module MRMesh (110)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module Messaging (108)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (106)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module XAudio2 (104)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module Networking (102)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module Core (100)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module ImageWrapper (96)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module InputCore (94)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module Settings (92)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module PhysXCooking (90)
+[2021.04.20-05.47.37:982][886]LogModuleManager: Shutting down and abandoning module ChaosSolvers (88)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (87)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module Chaos (84)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module AVEncoder (80)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (76)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module SteamVRInput (74)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2021.04.20-05.47.37:983][886]LogHMD: Freeing OpenVRDLLHandle.
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (62)
+[2021.04.20-05.47.37:983][886]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2021.04.20-05.47.37:994][886]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2021.04.20-05.47.37:994][886]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module Media (51)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (46)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module NiagaraShader (44)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module VariantManagerContent (42)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.04.20-05.47.37:995][886]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.04.20-05.47.37:996][886]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.04.20-05.47.37:998][886]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.04.20-05.47.37:998][886]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.04.20-05.47.37:999][886]LogD3D11RHI: Shutdown
+[2021.04.20-05.47.37:999][886]LogD3D11RHI: CleanupD3DDevice
+[2021.04.20-05.47.38:009][886]LogExit: Exiting.
+[2021.04.20-05.47.38:014][886]Log file closed, 04/19/21 22:47:38
